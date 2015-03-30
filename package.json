@@ -1,0 +1,36 @@
+{
+  "name": "fizzbuzz-example",
+  "version": "1.0.0",
+  "description": "FizzBuzz example",
+  "main": "index.js",
+  "repository": "dustinspecker/fizzbuzz-example",
+  "scripts": {
+    "test": "gulp test",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "author": {
+    "name": "Dustin Specker",
+    "email": "dustinspecker@dustinspecker.com",
+    "url": "https://github.com/dustinspecker"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index",
+    "lib"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "eslint-path-formatter": "^0.1.1",
+    "gulp": "^3.8.11",
+    "gulp-eslint": "^0.7.0",
+    "gulp-istanbul": "^0.7.0",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.4",
+    "gulp-mocha": "^2.0.1",
+    "proxyquire": "^1.4.0",
+    "sinon": "^1.14.1"
+  }
+}
